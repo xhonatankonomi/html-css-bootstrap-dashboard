@@ -12,6 +12,171 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/img/duck.png" alt="logo" class="navbar-brand" style="width: 65px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" >
+                        <a class="nav-link active" aria-current="page" href="#">Catelogo Libri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Anagrafica Utenti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Storico Prestiti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Help</a>
+                    </li>
+                </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
     
+    <main>
+        <div class="container text-left">
+            <h1 class="pt-4">
+                Nuovo Libro
+            </h1>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="mb-3 pt-3">
+                        <label for="" class="form-label">Nome autore</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder="Inserisci il nome dell'autore"/>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="mb-3 pt-3">
+                        <label for="" class="form-label">Cognome Autore</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder="Inserisci il cognome dell'autore"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-3 pt-3">
+                        <label for="" class="form-label">Titolo</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder="Inserisci il titolo del libro"/>
+
+                            <small id="helpId" class="form-text text-muted">Titolo versione italiana</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    
+                    <div class="mb-3 pt-3">
+                        <label for="" class="form-label">City</label>
+                        <select
+                            class="form-select form-select-md"
+                            name=""
+                            id=""
+                        >
+                            <option selected>Scegli il genere</option>
+                            <option value="">Lorem.</option>
+                            <option value="">Lorem.</option>
+                            <option value="">Lorem.</option>
+                        </select>
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="col-lg-4 col-sm-12">
+                    <div class="mb-3 pt-3">
+                        <label for="" class="form-label">Anno di Pubblicazione</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder="Inserisci il titolo del libro"/>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12">
+                    <div class="mb-3 pt-3">
+                        <label for="" class="form-label">ISBN#</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder="Inserisci il titolo del libro"/>
+
+                            <small id="helpId" class="form-text text-muted">Inserisci il codice ISBN#</small>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Note</label>
+                            <textarea
+                                class="form-control"
+                                name="noteLibro"
+                                id="noteLibro"
+                                placeholder="Inserisci eventuali note sul libro"
+                                rows="8">
+                            </textarea>
+                    </div>
+                    <div class="form-check form-check">
+                        <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id=""
+                            value="option1"
+                        />
+                        <label class="form-check-label" for="">Disponibile anche in digitale</label>
+                    </div>
+                    <a
+                        name=""
+                        id=""
+                        class="btn btn-primary"
+                        href="#"
+                        role="button"
+                        >Aggiungi Libro</a
+                    >
+                    
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
